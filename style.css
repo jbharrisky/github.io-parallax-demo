@@ -11,7 +11,7 @@ html, body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-   
+
 }
 
 .ysp1 {
@@ -34,24 +34,24 @@ html, body {
 }
 .ysp4 {
 
-    
+
     background-image: url("https://wallsdesk.com/wp-content/uploads/2016/11/Yellowstone-National-Park-Background.jpg");
     min-height: 100%;
-    
+
 }
 
 .ysp5 {
-    
+
     background-image: url("https://wallsdesk.com/wp-content/uploads/2016/11/Yellowstone-National-Park-High-Quality-Wallpapers.jpg");
     min-height: 100%;
-   
+
 }
 
 .ysp6 {
-    
+
     background-image: url("https://wallsdesk.com/wp-content/uploads/2016/11/Yellowstone-National-Park-Computer-Wallpaper.jpg");
     min-height: 100%;
-   
+
 }
 
 .sectionone  {
@@ -62,7 +62,7 @@ html, body {
     margin: 0;
     padding: 20px 80px;
     line-height: 1.8em;
-    
+
 }
 
 .sectiontwo, .sectionthree, .sectionfour, .sectionfive {
@@ -93,7 +93,7 @@ html, body {
     font-size: xx-large;
     color: #ddd;
     letter-spacing: .25em;
-    
+
 }
 
 .pysp2, .pysp3, .pysp4, .pysp5, .pysp6 {
@@ -107,15 +107,19 @@ html, body {
     font-size: xx-large;
     color: #ddd;
     letter-spacing: .65em;
-    
+
 }
 
 html {
     display: block;
 }
 
-@media(max-width: 500px){
+@media(max-width: 640px){
     .pysp1, .pysp2, .pysp3, .pysp4, .pysp5, .pysp6 {
         background-attachment: scroll;
+    }
+
+    .ysp1, .ysp2, .ysp3, .ysp4, .ysp5, .ysp6 {
+      width: 100%;
     }
 }
